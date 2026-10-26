@@ -1,7 +1,7 @@
 # --- Security Groups (module de l'equipe, appele deux fois) --------------------
 # ALB : seule porte publique, port 80 uniquement (le module refuse 0.0.0.0/0 sur tout autre port).
 module "sg_alb" {
-  source = "git::https://github.com/RaiZing955/terraform-aws-web-sg.git?ref=v1.0.0"
+  source = "git::https://github.com/RaiZing955/terraform-aws-web-sg.git?ref=8cf2dc3280de5e425b59670e3c5e4257ab30b4e7"
 
   name          = "${local.name}-alb"
   vpc_id        = module.vpc.vpc_id
@@ -12,7 +12,7 @@ module "sg_alb" {
 
 # Instances : port 80 depuis le Security Group de l'ALB uniquement, aucun SSH nulle part.
 module "sg_web" {
-  source = "git::https://github.com/RaiZing955/terraform-aws-web-sg.git?ref=v1.0.0"
+  source = "git::https://github.com/RaiZing955/terraform-aws-web-sg.git?ref=8cf2dc3280de5e425b59670e3c5e4257ab30b4e7"
 
   name                     = "${local.name}-web"
   vpc_id                   = module.vpc.vpc_id
