@@ -32,7 +32,7 @@ variable "instance_type" {
 variable "release_label" {
   description = "Libelle de version expose par l'ALB sur /release (sert a montrer un changement visible en demonstration)."
   type        = string
-  default     = "v1"
+  default     = "v2"
 }
 
 # AUCUNE valeur par defaut. Fournie par TF_VAR_db_password (jamais par un tfvars commite).
