@@ -6,11 +6,12 @@
 
 | Nom | Rôle |
 |---|---|
-| NOM Prénom | **Référent Git** |
-| NOM Prénom | **Référent AWS** |
-| NOM Prénom | membre |
+| KAYA Diyar | **Référent Git** |
+| VALLADE Dwayne | **Référent AWS** |
+| TORRES Matteo | membre |
+| YILDIZ Quentin | membre |
 
-Équipe : `<nom de l'équipe>` - Classe : `<classe>`
+Équipe : `7` - Classe : `5 SRC C`
 
 ## 2. Contexte métier (cinq lignes)
 
