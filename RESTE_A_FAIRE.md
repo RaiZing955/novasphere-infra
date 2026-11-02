@@ -1,6 +1,6 @@
 # RESTE À FAIRE : fiche de fin de séance
 
-Équipe : ____________________
+Équipe : 7
 
 État au checkpoint de fin de séance :
 
@@ -18,6 +18,6 @@ Reste à faire pendant l'alternance (trois items maximum) :
 3. Vérifier le README « de zéro », remettre à jour les credentials de session dans les secrets (`update-lab-credentials.sh`), redéployer via la CI, poser le tag `rendu-final`
    - qui : Référent AWS + Référent Git - quand : J-1 (avant la date de gel)
 
-Date de gel (tag `rendu-final`) : ____________
+Date de gel (tag `rendu-final`) : 02/11/2026
 
-Signatures : ____________________  ____________________  ____________________
+Signatures : KAYA Diyar  VALLADE Dwayne  TORRES Matteo  YILDIZ Quentin
